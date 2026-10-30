@@ -48,7 +48,7 @@ public:
       cfg.panel_height  = TFT_HEIGHT;       // actual displayable height
       cfg.offset_x = 0;                     // amount of panel offset in X direction
       cfg.offset_y = 0;                     // amount of offset in Y direction for the panel
-      cfg.offset_rotation  = 4;             // offset of display rotation (set 4 to get LANDSCAPE_USP_RIGHT, PORTRAIT_USB_UP, 
+      cfg.offset_rotation  = 0;             // offset of display rotation (set 4 to get LANDSCAPE_USP_RIGHT, PORTRAIT_USB_UP, 
                                             // LANDSCAPE_USP_LEFT, PORTRAIT_USB_DOWN for lcd.setRotation(r) r=0..3)
       cfg.dummy_read_pixel = 8;             // number of dummy read bits before pixel read
       cfg.dummy_read_bits  = 1;             // dummy read bits before out-of-pixel data read
